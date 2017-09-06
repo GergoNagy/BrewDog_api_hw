@@ -1,0 +1,15 @@
+info {
+    width: 400px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+img {
+    margin-right: 15px;
+    float: left;
+    width: 70px;
+}
+
+html {
+    background-color: lightslategray;
+}
