@@ -1,5 +1,6 @@
 h1 {
     text-align: center;
+    text-decoration: underline;
 }
 
 h4 {
@@ -13,6 +14,13 @@ info {
     overflow: hidden;
 }
 
+#info ul {
+    display: table-cell;
+    list-style-type:none;
+    vertical-align: top;
+    
+}
+
 img {
     margin-right: 15px;
     float: left;
@@ -20,7 +28,16 @@ img {
 }
 
 html {
-    background-color: lightslategray;
-    max-width: 500px;
+    background-image: url(wood_background.jpg);
+    color: #000000;
+    max-width: 900;
     margin: auto;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: 320px;
 }
