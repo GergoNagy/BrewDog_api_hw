@@ -100,11 +100,11 @@ var updateInfo = function(beer){
 
     var pTag = document.querySelectorAll('#info p');
     pTag[0].innerText = beer.name;
-    pTag[1].innerText = beer.abv;
-    pTag[2].innerText = beer.tagline;
-    pTag[3].innerText = beer.description;
-    pTag[4].innerText = beer.food_pairing;
-    pTag[5].innerText = beer.brewers_tips;
+    pTag[1].innerText = "ABV " + beer.abv +"%";
+    pTag[2].innerText = "Info: " + beer.tagline;
+    pTag[3].innerText = "Description: " + beer.description;
+    pTag[4].innerText = "Foods good with this beer: " + beer.food_pairing;
+    pTag[5].innerText = "Tips: " + beer.brewers_tips;
 
     selectMalt(beer.ingredients);
     selectYeast(beer.ingredients);
